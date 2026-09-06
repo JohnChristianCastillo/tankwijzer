@@ -24,4 +24,7 @@ git worktree add --detach "$TMP" >/dev/null
   git push -f origin "HEAD:refs/heads/data"
 )
 git worktree remove --force "$TMP"
+# The temp branch outlives its worktree, so clean it up too. Harmless in CI,
+# but locally it leaves one dead branch behind on every run.
+git branch -D "$BRANCH" >/dev/null 2>&1 || true
 echo "published to the data branch"
