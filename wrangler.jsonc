@@ -1,0 +1,15 @@
+{
+  // Cloudflare Workers static assets. Lives at the repo root because the build
+  // reaches both halves: the Python snapshot and the Vite frontend.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tankwijzer",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./frontend/dist",
+    // No client side router here, so a missing path should be an honest 404
+    // rather than index.html at 200, which would arrive as HTML where JSON was expected.
+    "not_found_handling": "none"
+  },
+  "workers_dev": true,
+  "preview_urls": false
+}

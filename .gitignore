@@ -1,0 +1,9 @@
+_local/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+frontend/public/data/
+.wrangler/
+frontend/tsconfig.tsbuildinfo
