@@ -94,6 +94,10 @@
 .summary p {
   margin: 0;
   color: var(--text-soft);
+  /* Flex items refuse to shrink below their content by default, which on a
+     narrow screen pushed these lines past the viewport and gave the whole page
+     a horizontal scroll. */
+  min-width: 0;
 }
 
 .ceiling strong,
@@ -133,5 +137,50 @@
 
   .title {
     font-size: 22px;
+  }
+
+  .summary {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+
+/* Two columns from tablet width up: list on the left, map held in view on the
+   right. Below this the layout stays stacked, which is the right shape for a
+   phone held one handed at a pump. */
+.workspace {
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    max-width: 1280px;
+  }
+
+  .workspace {
+    display: grid;
+    grid-template-columns: minmax(360px, 440px) 1fr;
+    gap: 16px;
+    align-items: start;
+  }
+
+  .results {
+    grid-column: 1;
+    grid-row: 1;
+    /* The list scrolls inside its own pane, so selecting a pin moves the list
+       rather than jumping the whole page. */
+    max-height: var(--pane-height);
+    min-height: 480px;
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+
+  .results-title {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 0;
+    padding: 6px 0;
+    background: var(--bg);
   }
 }

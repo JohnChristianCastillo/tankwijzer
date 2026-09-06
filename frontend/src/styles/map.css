@@ -83,3 +83,18 @@
 .price-dot.is-unpriced {
   background: var(--border);
 }
+
+/* Wide screen: the map sits in the right column and stays put while the list
+   scrolls beside it. Declared here rather than in layout.css because this file
+   is imported later and would otherwise win with its default height. */
+@media (min-width: 900px) {
+  .station-map {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: 12px;
+    height: var(--pane-height);
+    min-height: 480px;
+    margin: 0;
+  }
+}

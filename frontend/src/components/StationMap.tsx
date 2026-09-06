@@ -45,10 +45,16 @@ export function StationMap({ stations, selectedId, origin, cheapestId, onSelect 
 
     map.on("zoomend", () => setZoom(map.getZoom()));
 
+    // The container changes size when the layout crosses the two column
+    // breakpoint, and Leaflet renders into a stale size until it is told.
+    const observer = new ResizeObserver(() => map.invalidateSize());
+    observer.observe(containerRef.current);
+
     mapRef.current = map;
     layerRef.current = L.layerGroup().addTo(map);
 
     return () => {
+      observer.disconnect();
       map.remove();
       mapRef.current = null;
       layerRef.current = null;
