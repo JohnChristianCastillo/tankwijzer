@@ -1,0 +1,183 @@
+/* The results list and the expanded station detail. */
+
+.results-title {
+  margin: 18px 0 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+.station-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.station-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.station-card.is-cheapest {
+  border-color: var(--accent);
+}
+
+.station-card.is-unpriced {
+  opacity: 0.75;
+}
+
+.station-card-head {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.station-card-identity {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.station-card-name {
+  font-weight: 600;
+}
+
+.station-card-place {
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.station-card-distance {
+  margin-left: 8px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+}
+
+.station-card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  white-space: nowrap;
+}
+
+.station-card-price .amount {
+  font-size: 19px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.station-card.is-cheapest .station-card-price .amount {
+  color: var(--cheap);
+}
+
+.station-card-price .unit,
+.station-card-price .under-max,
+.station-card-price .no-price {
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+.station-card-detail {
+  padding: 0 12px 12px;
+  border-top: 1px solid var(--border);
+}
+
+.fuel-list {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fuel-list li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--surface-alt);
+  font-size: 13px;
+}
+
+.fuel-list li.is-current {
+  background: var(--accent-soft);
+}
+
+.fuel-name {
+  flex: 1;
+}
+
+.fuel-price {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.fuel-ceiling,
+.fuel-empty {
+  color: var(--text-soft);
+}
+
+.station-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 22px;
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+
+.station-facts dt {
+  color: var(--text-soft);
+}
+
+.station-facts dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.station-facts dd.is-stale {
+  color: var(--stale);
+}
+
+.station-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.action {
+  padding: 7px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-alt);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.action-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .station-card-price .amount {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,137 @@
+/* Page shell, header, controls and the summary strip. */
+
+.shell {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  margin: 4px 0 0;
+  color: var(--text-soft);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: center;
+  padding: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.control-label {
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-alt);
+  cursor: pointer;
+}
+
+.chip:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.chip:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.select {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-alt);
+}
+
+.postcode-input {
+  width: 96px;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-alt);
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin: 14px 0;
+}
+
+.summary p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
+.ceiling strong,
+.cheapest strong {
+  color: var(--text);
+}
+
+.ceiling-source {
+  margin-left: 6px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  font-size: 12px;
+}
+
+.footer {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-soft);
+  font-size: 13px;
+}
+
+.footer p {
+  margin: 0 0 6px;
+}
+
+.footer-meta {
+  opacity: 0.8;
+}
+
+@media (max-width: 560px) {
+  .shell {
+    padding: 14px 10px 30px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+}

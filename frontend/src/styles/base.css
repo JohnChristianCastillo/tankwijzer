@@ -1,0 +1,70 @@
+/* Tokens, resets and the colour system. Light and dark both defined here. */
+
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-alt: #eceef2;
+  --border: #d7dae1;
+  --text: #1b1f27;
+  --text-soft: #5c6472;
+  --accent: #0b6b4f;
+  --accent-soft: #e2f1ea;
+  --cheap: #0b6b4f;
+  --stale: #9a6b12;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(20, 25, 35, 0.08);
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171d;
+    --surface: #1c2029;
+    --surface-alt: #232833;
+    --border: #333a47;
+    --text: #eef1f5;
+    --text-soft: #9aa3b2;
+    --accent: #4ecf9f;
+    --accent-soft: #17342a;
+    --cheap: #4ecf9f;
+    --stale: #d9a441;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+a {
+  color: var(--accent);
+}
+
+button,
+select,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+.notice {
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-soft);
+}
+
+.notice-error {
+  border-color: #b3453c;
+  color: #b3453c;
+}
