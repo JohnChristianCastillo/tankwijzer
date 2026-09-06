@@ -1,6 +1,6 @@
 /** Wires the snapshot, the controls and the two views (map and list) together. */
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 import { buildViews, formatPrice, loadSnapshot } from "./api";
 import { centreForPostcode, type Point } from "./geo";
@@ -21,6 +21,7 @@ export function App() {
   const [locating, setLocating] = useState(false);
   const [locateError, setLocateError] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const paneRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     setPrefs(loadPrefs());
@@ -32,9 +33,24 @@ export function App() {
 
   useEffect(() => {
     if (!selectedId) return;
-    // Picking a pin on the map should also bring its card to you.
     const card = document.getElementById(cardId(selectedId));
-    card?.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (!card) return;
+
+    // Picking a pin on the map should bring its card to you. On a wide screen
+    // the list is its own scrolling pane, so move that and leave the page where
+    // it is: scrolling the whole window would push the map and controls away.
+    const pane = paneRef.current;
+    if (pane && pane.scrollHeight > pane.clientHeight) {
+      // The count line is sticky at the top of the pane, so stop short of it or
+      // it clips the card it just scrolled to.
+      const heading = pane.querySelector<HTMLElement>(".results-title");
+      const headingHeight = heading ? heading.offsetHeight : 0;
+      const delta = card.getBoundingClientRect().top - pane.getBoundingClientRect().top;
+      pane.scrollBy({ top: delta - headingHeight - 8, behavior: "smooth" });
+      return;
+    }
+
+    card.scrollIntoView({ behavior: "smooth", block: "center" });
   }, [selectedId, snapshot]);
 
   useEffect(() => {
@@ -155,34 +171,39 @@ export function App() {
         )}
       </section>
 
-      <StationMap
-        stations={views}
-        selectedId={selectedId}
-        cheapestId={cheapest?.id ?? null}
-        origin={origin}
-        onSelect={(id) => setSelectedId((current) => (current === id ? null : id))}
-      />
+      {/* On a wide screen this becomes two columns, list left and map right, so the
+          map stays in view while the list scrolls inside its own pane. Stacked on
+          a phone, where a full height map beside a list has nowhere to go. */}
+      <div className="workspace">
+        <StationMap
+          stations={views}
+          selectedId={selectedId}
+          cheapestId={cheapest?.id ?? null}
+          origin={origin}
+          onSelect={(id) => setSelectedId((current) => (current === id ? null : id))}
+        />
 
-      <section className="results">
-        <h2 className="results-title">
-          {priced.length} van {views.length} stations met een prijs
-        </h2>
-        <ul className="station-list">
-          {views.map((station) => (
-            <StationCard
-              key={station.id}
-              station={station}
-              fuel={prefs.fuel}
-              isSelected={station.id === selectedId}
-              isCheapest={station.id === cheapest?.id}
-              onSelect={(id) => setSelectedId((current) => (current === id ? null : id))}
-            />
-          ))}
-          {views.length === 0 && (
-            <li className="notice">Geen stations binnen deze straal. Vergroot de straal.</li>
-          )}
-        </ul>
-      </section>
+        <section className="results" ref={paneRef}>
+          <h2 className="results-title">
+            {priced.length} van {views.length} stations met een prijs
+          </h2>
+          <ul className="station-list">
+            {views.map((station) => (
+              <StationCard
+                key={station.id}
+                station={station}
+                fuel={prefs.fuel}
+                isSelected={station.id === selectedId}
+                isCheapest={station.id === cheapest?.id}
+                onSelect={(id) => setSelectedId((current) => (current === id ? null : id))}
+              />
+            ))}
+            {views.length === 0 && (
+              <li className="notice">Geen stations binnen deze straal. Vergroot de straal.</li>
+            )}
+          </ul>
+        </section>
+      </div>
 
       <Footer generated={snapshot.generated} />
     </main>
