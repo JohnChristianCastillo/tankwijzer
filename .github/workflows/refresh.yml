@@ -1,0 +1,64 @@
+name: Refresh prices
+
+on:
+  schedule:
+    # Twice a day. DATS 24 moves prices daily, and scheduled runs drift by up to
+    # an hour on GitHub Actions, which is normal and harmless here.
+    - cron: "0 5 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Publish even if coverage dropped"
+        type: boolean
+        default: false
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      # A job that runs for minutes looks identical to one that hung when the
+      # log only arrives at the end.
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Fetch the existing snapshot
+        run: |
+          mkdir -p frontend/public/data
+          if git fetch --depth 1 origin data 2>/dev/null; then
+            git archive FETCH_HEAD data | tar -x
+            cp -r data/. frontend/public/data/
+            rm -rf data
+          fi
+
+      - name: Build the snapshot
+        working-directory: backend
+        run: python tools/snapshot.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Publish the data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          bash scripts/publish-data.sh
+
+      - name: Trigger a Cloudflare build
+        run: |
+          # Cloudflare builds on a push to main and does not watch the data branch,
+          # so without this the site keeps serving the previous snapshot.
+          git commit --allow-empty -qm "Refresh snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin HEAD:main
