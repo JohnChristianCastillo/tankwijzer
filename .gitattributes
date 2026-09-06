@@ -1,0 +1,4 @@
+# Normalise to LF in the repository. scripts/*.sh run on Linux in CI and in the
+# Cloudflare build, where a CRLF shebang line fails with a confusing error.
+* text=auto eol=lf
+*.png binary
