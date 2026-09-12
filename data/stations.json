@@ -1,0 +1,6397 @@
+{
+ "generated": "2026-09-12T17:44:28.764352+00:00",
+ "sources": [
+  "dats24"
+ ],
+ "ceilings": {
+  "SP98": 2.234,
+  "E10": 2.058,
+  "GO": 2.407
+ },
+ "stations": [
+  {
+   "id": "dats24:108",
+   "name": "DATS 24 Waregem",
+   "brand": "DATS 24",
+   "lat": 50.90183,
+   "lng": 3.40718,
+   "address": "Gentseweg 568A",
+   "postcode": "8793",
+   "city": "Waregem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.909,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:02:42.843000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-waregem_108"
+  },
+  {
+   "id": "dats24:110",
+   "name": "DATS 24 Eeklo",
+   "brand": "DATS 24",
+   "lat": 51.19436,
+   "lng": 3.54495,
+   "address": "Leopoldlaan 58",
+   "postcode": "9900",
+   "city": "Eeklo",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.303,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:57:28.713000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-eeklo_110"
+  },
+  {
+   "id": "dats24:80",
+   "name": "DATS 24 Avelgem",
+   "brand": "DATS 24",
+   "lat": 50.76424,
+   "lng": 3.43895,
+   "address": "Doorniksesteenweg 272",
+   "postcode": "8580",
+   "city": "Avelgem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.342,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:02:42.121000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-avelgem_80"
+  },
+  {
+   "id": "dats24:37",
+   "name": "DATS 24 Gent Drongen",
+   "brand": "DATS 24",
+   "lat": 51.05518,
+   "lng": 3.69515,
+   "address": "Drongensesteenweg 197",
+   "postcode": "9000",
+   "city": "Gent",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:06:39.904000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gent-drongen_37"
+  },
+  {
+   "id": "dats24:83",
+   "name": "DATS 24 Blankenberge",
+   "brand": "DATS 24",
+   "lat": 51.30235,
+   "lng": 3.14396,
+   "address": "Ruitersstraat 2",
+   "postcode": "8370",
+   "city": "Blankenberge",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:52:34.718000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-blankenberge_83"
+  },
+  {
+   "id": "dats24:84",
+   "name": "DATS 24 Harelbeke",
+   "brand": "DATS 24",
+   "lat": 50.84635,
+   "lng": 3.29641,
+   "address": "Kortrijksesteenweg 206-2",
+   "postcode": "8530",
+   "city": "Harelbeke",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.149,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:51:43.871000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-harelbeke_84"
+  },
+  {
+   "id": "dats24:55",
+   "name": "DATS 24 Kuurne",
+   "brand": "DATS 24",
+   "lat": 50.85757,
+   "lng": 3.2706,
+   "address": "Brugsesteenweg 184",
+   "postcode": "8520",
+   "city": "Kuurne",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.201,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:02:45.053000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-kuurne_55"
+  },
+  {
+   "id": "dats24:54",
+   "name": "DATS 24 Maldegem",
+   "brand": "DATS 24",
+   "lat": 51.20378,
+   "lng": 3.45288,
+   "address": "Koning Leopoldlaan 2",
+   "postcode": "9990",
+   "city": "Maldegem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.139,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.916,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.251,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:06:42.081000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-maldegem_54"
+  },
+  {
+   "id": "dats24:53",
+   "name": "DATS 24 Izegem",
+   "brand": "DATS 24",
+   "lat": 50.91532,
+   "lng": 3.19772,
+   "address": "Krekelmotestraat 147",
+   "postcode": "8870",
+   "city": "Izegem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.192,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T16:51:43.824000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-izegem_53"
+  },
+  {
+   "id": "dats24:77",
+   "name": "DATS 24 Melle",
+   "brand": "DATS 24",
+   "lat": 51.02265,
+   "lng": 3.77497,
+   "address": "Brusselsesteenweg 36",
+   "postcode": "9090",
+   "city": "Melle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.169,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T11:06:42.617000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-melle_77"
+  },
+  {
+   "id": "dats24:22",
+   "name": "DATS 24 Mouscron",
+   "brand": "DATS 24",
+   "lat": 50.75526,
+   "lng": 3.20049,
+   "address": "Rue de Menin 483",
+   "postcode": "7700",
+   "city": "Mouscron",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:09:50.648000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-mouscron_22"
+  },
+  {
+   "id": "dats24:21",
+   "name": "DATS 24 Menen",
+   "brand": "DATS 24",
+   "lat": 50.80448,
+   "lng": 3.09591,
+   "address": "Ieperstraat 435",
+   "postcode": "8930",
+   "city": "Menen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.159,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:59:32.508000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-menen_21"
+  },
+  {
+   "id": "dats24:40",
+   "name": "DATS 24 Roeselare Noord",
+   "brand": "DATS 24",
+   "lat": 50.95623,
+   "lng": 3.11922,
+   "address": "Noordlaan 32",
+   "postcode": "8800",
+   "city": "Roeselare",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.257,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:02:46.804000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-roeselare-noord_40"
+  },
+  {
+   "id": "dats24:95",
+   "name": "DATS 24 Roeselare Mandel",
+   "brand": "DATS 24",
+   "lat": 50.95774,
+   "lng": 3.13214,
+   "address": "Beversesteenweg 202",
+   "postcode": "8800",
+   "city": "Roeselare",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.257,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T15:51:49.117000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-roeselare-mandel_95"
+  },
+  {
+   "id": "dats24:78",
+   "name": "DATS 24 Torhout",
+   "brand": "DATS 24",
+   "lat": 51.08243,
+   "lng": 3.11588,
+   "address": "Bruggestraat 166",
+   "postcode": "8820",
+   "city": "Torhout",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.245,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:36:44.651000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-torhout_78"
+  },
+  {
+   "id": "dats24:93",
+   "name": "DATS 24 Destelbergen",
+   "brand": "DATS 24",
+   "lat": 51.05964,
+   "lng": 3.82531,
+   "address": "Dendermondesteenweg 694",
+   "postcode": "9070",
+   "city": "Destelbergen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.32,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:06:46.867000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-destelbergen_93"
+  },
+  {
+   "id": "dats24:107",
+   "name": "DATS 24 Herzele",
+   "brand": "DATS 24",
+   "lat": 50.90234,
+   "lng": 3.88501,
+   "address": "Provincieweg 178",
+   "postcode": "9552",
+   "city": "Herzele",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.209,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.299,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:06:47.644000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-herzele_107"
+  },
+  {
+   "id": "dats24:58",
+   "name": "DATS 24 Wevelgem",
+   "brand": "DATS 24",
+   "lat": 50.81238,
+   "lng": 3.19595,
+   "address": "Kortrijkstraat 226",
+   "postcode": "8560",
+   "city": "Wevelgem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:02:51.293000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wevelgem_58"
+  },
+  {
+   "id": "dats24:116",
+   "name": "DATS 24 Brakel",
+   "brand": "DATS 24",
+   "lat": 50.797866,
+   "lng": 3.759533,
+   "address": "Geraardsebergstraat 4",
+   "postcode": "9660",
+   "city": "Brakel",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.165,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.913,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.259,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:06:48.852000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-brakel_116"
+  },
+  {
+   "id": "dats24:44",
+   "name": "DATS 24 Deinze",
+   "brand": "DATS 24",
+   "lat": 50.98103,
+   "lng": 3.54669,
+   "address": "Gentsesteenweg 208",
+   "postcode": "9800",
+   "city": "Deinze",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T10:55:42.211000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-deinze_44"
+  },
+  {
+   "id": "dats24:115",
+   "name": "DATS 24 Gent wiedauw",
+   "brand": "DATS 24",
+   "lat": 51.08646,
+   "lng": 3.72514,
+   "address": "Wiedauwkaai 104",
+   "postcode": "9000",
+   "city": "Gent",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:02:51.672000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gent-wiedauw_115"
+  },
+  {
+   "id": "dats24:128",
+   "name": "DATS 24 Ieper",
+   "brand": "DATS 24",
+   "lat": 50.83991832,
+   "lng": 2.888504081,
+   "address": "Rijselseweg 80",
+   "postcode": "8900",
+   "city": "Ieper",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 2.037,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.229,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:35:02.017000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ieper_128"
+  },
+  {
+   "id": "dats24:129",
+   "name": "DATS 24 Knokke",
+   "brand": "DATS 24",
+   "lat": 51.3285022,
+   "lng": 3.295178973,
+   "address": "Natienlaan 179",
+   "postcode": "8300",
+   "city": "Knokke",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.173,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:58:16.373000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-knokke_129"
+  },
+  {
+   "id": "dats24:27",
+   "name": "DATS 24 Lochristi",
+   "brand": "DATS 24",
+   "lat": 51.09145,
+   "lng": 3.81609,
+   "address": "Antwerpsesteenweg 44",
+   "postcode": "9080",
+   "city": "Lochristi",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.911,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T16:51:52.059000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-lochristi_27"
+  },
+  {
+   "id": "dats24:7",
+   "name": "DATS 24 Middelkerke",
+   "brand": "DATS 24",
+   "lat": 51.19339,
+   "lng": 2.84018,
+   "address": "Oostendelaan 298",
+   "postcode": "8430",
+   "city": "Middelkerke",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.923,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.289,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:59:11.318000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-middelkerke_7"
+  },
+  {
+   "id": "dats24:85",
+   "name": "DATS 24 Lievegem",
+   "brand": "DATS 24",
+   "lat": 51.10211,
+   "lng": 3.63134,
+   "address": "Grote Baan 109",
+   "postcode": "9920",
+   "city": "Lovendegem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.936,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.314,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:06:53.228000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-lievegem_85"
+  },
+  {
+   "id": "dats24:125",
+   "name": "DATS 24 Pecq",
+   "brand": "DATS 24",
+   "lat": 50.67621,
+   "lng": 3.33961,
+   "address": "Rue de Tournai 143",
+   "postcode": "7740",
+   "city": "Pecq",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.199,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:51:57.512000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-pecq_125"
+  },
+  {
+   "id": "dats24:137",
+   "name": "DATS 24 Ronse",
+   "brand": "DATS 24",
+   "lat": 50.741632,
+   "lng": 3.58737,
+   "address": "Leuzesteenweg 93",
+   "postcode": "9600",
+   "city": "Ronse",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.269,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:54:44.090000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ronse_137"
+  },
+  {
+   "id": "dats24:62",
+   "name": "DATS 24 Tielt",
+   "brand": "DATS 24",
+   "lat": 50.99694,
+   "lng": 3.30637,
+   "address": "Pittemsesteenweg 45",
+   "postcode": "8700",
+   "city": "Tielt",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:51:52.894000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-tielt_62"
+  },
+  {
+   "id": "dats24:66",
+   "name": "DATS 24 Wetteren",
+   "brand": "DATS 24",
+   "lat": 50.98439,
+   "lng": 3.84431,
+   "address": "Brusselsesteenweg 252",
+   "postcode": "9230",
+   "city": "Wetteren",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.145,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T11:06:55.616000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wetteren_66"
+  },
+  {
+   "id": "dats24:5",
+   "name": "DATS 24 Tournai",
+   "brand": "DATS 24",
+   "lat": 50.60478,
+   "lng": 3.41264,
+   "address": "Chaussée de Bruxelles 154",
+   "postcode": "7500",
+   "city": "Tournai",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.209,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.261,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T15:52:02.053000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-tournai_5"
+  },
+  {
+   "id": "dats24:150",
+   "name": "DATS 24 Varsenare",
+   "brand": "DATS 24",
+   "lat": 51.180744,
+   "lng": 3.1380168,
+   "address": "Gistelsteenweg 195",
+   "postcode": "8490",
+   "city": "Varsenare",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.205,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:30:09.204000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-varsenare_150"
+  },
+  {
+   "id": "dats24:35",
+   "name": "DATS 24 Aalst",
+   "brand": "DATS 24",
+   "lat": 50.933,
+   "lng": 4.05439,
+   "address": "Brusselsesteenweg 41",
+   "postcode": "9300",
+   "city": "Aalst",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.229,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:21:54.626000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-aalst_35"
+  },
+  {
+   "id": "dats24:126",
+   "name": "DATS 24 Mechelen Regenboog",
+   "brand": "DATS 24",
+   "lat": 51.00649,
+   "lng": 4.46418,
+   "address": "DE REGENBOOG 8",
+   "postcode": "2800",
+   "city": "Mechelen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.938,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.37,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:00.741000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-mechelen-regenboog_126"
+  },
+  {
+   "id": "dats24:122",
+   "name": "DATS 24 Grobbendonk",
+   "brand": "DATS 24",
+   "lat": 51.17381856,
+   "lng": 4.751439887,
+   "address": "Herentalsesteenweg 16",
+   "postcode": "2280",
+   "city": "Grobbendonk",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.25,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:01.138000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-grobbendonk_122"
+  },
+  {
+   "id": "dats24:96",
+   "name": "DATS 24 Kontich",
+   "brand": "DATS 24",
+   "lat": 51.1253,
+   "lng": 4.45172,
+   "address": "Koningin Astridlaan 4",
+   "postcode": "2550",
+   "city": "Kontich",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 2.028,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.345,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:03:01.551000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-kontich_96"
+  },
+  {
+   "id": "dats24:103",
+   "name": "DATS 24 Grimbergen",
+   "brand": "DATS 24",
+   "lat": 50.92699,
+   "lng": 4.39131,
+   "address": "Vilvoordsesteenweg 301",
+   "postcode": "1850",
+   "city": "Grimbergen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.998,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.347,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:02.156000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-grimbergen_103"
+  },
+  {
+   "id": "dats24:94",
+   "name": "DATS 24 Kampenhout",
+   "brand": "DATS 24",
+   "lat": 50.95854,
+   "lng": 4.58808,
+   "address": "Mechelsesteenweg 55",
+   "postcode": "1910",
+   "city": "Kampenhout",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.132,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.869,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.21,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:37:55.982000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-kampenhout_94"
+  },
+  {
+   "id": "dats24:101",
+   "name": "DATS 24 Brecht",
+   "brand": "DATS 24",
+   "lat": 51.35702,
+   "lng": 4.64089,
+   "address": "Veldstraat 64",
+   "postcode": "2960",
+   "city": "Brecht",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 2.048,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.387,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:42.634000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-brecht_101"
+  },
+  {
+   "id": "dats24:89",
+   "name": "DATS 24 Lokeren",
+   "brand": "DATS 24",
+   "lat": 51.10992,
+   "lng": 3.96652,
+   "address": "Gentse steenweg 24",
+   "postcode": "9160",
+   "city": "Lokeren",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.139,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.215,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:15:17.595000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-lokeren_89"
+  },
+  {
+   "id": "dats24:57",
+   "name": "DATS 24 Boutersem",
+   "brand": "DATS 24",
+   "lat": 50.83976,
+   "lng": 4.83817,
+   "address": "Leuvensesteenweg 297",
+   "postcode": "3370",
+   "city": "Boutersem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.326,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T15:52:07.727000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-boutersem_57"
+  },
+  {
+   "id": "dats24:19",
+   "name": "DATS 24 Alsemberg",
+   "brand": "DATS 24",
+   "lat": 50.74124,
+   "lng": 4.33652,
+   "address": "Brusselsesteenweg 17",
+   "postcode": "1652",
+   "city": "Alsemberg",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.946,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.339,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:06.601000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-alsemberg_19"
+  },
+  {
+   "id": "dats24:31",
+   "name": "DATS 24 Asse",
+   "brand": "DATS 24",
+   "lat": 50.91666,
+   "lng": 4.18947,
+   "address": "Nerviërsstraat 49",
+   "postcode": "1730",
+   "city": "Asse",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.146,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.9,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.253,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:07.213000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-asse_31"
+  },
+  {
+   "id": "dats24:87",
+   "name": "DATS 24 Antwerpen",
+   "brand": "DATS 24",
+   "lat": 51.25694,
+   "lng": 4.41663,
+   "address": "Vosseschijnstraat 42",
+   "postcode": "2030",
+   "city": "Antwerpen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:19:59.671000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-antwerpen_87"
+  },
+  {
+   "id": "dats24:118",
+   "name": "DATS 24 Dilbeek",
+   "brand": "DATS 24",
+   "lat": 50.84302,
+   "lng": 4.25044,
+   "address": "Ninovesesteenweg 507",
+   "postcode": "1700",
+   "city": "itterbeek (Dilbeek)",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.269,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:03:07.818000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-dilbeek_118"
+  },
+  {
+   "id": "dats24:74",
+   "name": "DATS 24 Geel",
+   "brand": "DATS 24",
+   "lat": 51.14559,
+   "lng": 4.95524,
+   "address": "Antwerpsesteenweg 87",
+   "postcode": "2440",
+   "city": "Geel",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.212,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:03:11.455000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-geel_74"
+  },
+  {
+   "id": "dats24:63",
+   "name": "DATS 24 Ninove",
+   "brand": "DATS 24",
+   "lat": 50.83903,
+   "lng": 4.01315,
+   "address": "Albertlaan 158",
+   "postcode": "9400",
+   "city": "Ninove",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.259,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T11:07:06.043000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ninove_63"
+  },
+  {
+   "id": "dats24:26",
+   "name": "DATS 24 Boom",
+   "brand": "DATS 24",
+   "lat": 51.0948,
+   "lng": 4.36787,
+   "address": "Papensteenstraat 1",
+   "postcode": "2850",
+   "city": "Boom",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.918,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.361,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:03:13.196000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-boom_26"
+  },
+  {
+   "id": "dats24:59",
+   "name": "DATS 24 Denderleeuw",
+   "brand": "DATS 24",
+   "lat": 50.87326,
+   "lng": 4.07959,
+   "address": "Kasteelstraat 28",
+   "postcode": "9470",
+   "city": "Denderleeuw",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.959,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.319,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:14:24.185000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-denderleeuw_59"
+  },
+  {
+   "id": "dats24:43",
+   "name": "DATS 24 Dendermonde",
+   "brand": "DATS 24",
+   "lat": 51.03822,
+   "lng": 4.13538,
+   "address": "Mechelsesteenweg 352",
+   "postcode": "9200",
+   "city": "Dendermonde",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.099,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.219,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.879,
+     "ceiling": 2.058
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:14:28.696000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-dendermonde_43"
+  },
+  {
+   "id": "dats24:70",
+   "name": "DATS 24 Lennik",
+   "brand": "DATS 24",
+   "lat": 50.80631,
+   "lng": 4.14962,
+   "address": "Kroonstraat 73",
+   "postcode": "1750",
+   "city": "Lennik",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.347,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:16.718000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-lennik_70"
+  },
+  {
+   "id": "dats24:65",
+   "name": "DATS 24 Lier",
+   "brand": "DATS 24",
+   "lat": 51.14649,
+   "lng": 4.54079,
+   "address": "Antwerpsesteenweg 346",
+   "postcode": "2500",
+   "city": "Lier",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.877,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T15:52:22.467000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-lier_65"
+  },
+  {
+   "id": "dats24:124",
+   "name": "DATS 24 Machelen",
+   "brand": "DATS 24",
+   "lat": 50.89610855,
+   "lng": 4.431779399,
+   "address": "Haachtsesteenweg 7",
+   "postcode": "1830",
+   "city": "Machelen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.172,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.267,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:52:54.413000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-machelen_124"
+  },
+  {
+   "id": "dats24:20",
+   "name": "DATS 24 Halle (Stroppen)",
+   "brand": "DATS 24",
+   "lat": 50.75313,
+   "lng": 4.25265,
+   "address": "Bilkensveld 2",
+   "postcode": "1500",
+   "city": "Halle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.927,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.273,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:43:24.750000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-halle-stroppen_20"
+  },
+  {
+   "id": "dats24:14",
+   "name": "DATS 24 Mechelen",
+   "brand": "DATS 24",
+   "lat": 51.0448,
+   "lng": 4.47747,
+   "address": "Liersesteenweg 351",
+   "postcode": "2800",
+   "city": "Mechelen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.938,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.37,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T11:06:22.893000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-mechelen_14"
+  },
+  {
+   "id": "dats24:61",
+   "name": "DATS 24 Meerbeke",
+   "brand": "DATS 24",
+   "lat": 50.82911,
+   "lng": 4.04639,
+   "address": "Brusselsesteenweg 341",
+   "postcode": "9402",
+   "city": "Meerbeke",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.259,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T11:22:11.814000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-meerbeke_61"
+  },
+  {
+   "id": "dats24:10",
+   "name": "DATS 24 Nossegem",
+   "brand": "DATS 24",
+   "lat": 50.87875,
+   "lng": 4.51051,
+   "address": "Voskapellelaan 11",
+   "postcode": "1930",
+   "city": "Nossegem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.202,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.308,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:59:17.401000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-nossegem_10"
+  },
+  {
+   "id": "dats24:112",
+   "name": "DATS 24 Opwijk",
+   "brand": "DATS 24",
+   "lat": 50.96154,
+   "lng": 4.20288,
+   "address": "Steenweg op Merchtem 137",
+   "postcode": "1745",
+   "city": "Opwijk",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.152,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.916,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.253,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:09:52.697000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-opwijk_112"
+  },
+  {
+   "id": "dats24:92",
+   "name": "DATS 24 Rotselaar",
+   "brand": "DATS 24",
+   "lat": 50.9462,
+   "lng": 4.74892,
+   "address": "Aarschotsesteenweg 139",
+   "postcode": "3111",
+   "city": "Wezemaal",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.169,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:03:25.177000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-rotselaar_92"
+  },
+  {
+   "id": "dats24:99",
+   "name": "DATS 24 Schoten",
+   "brand": "DATS 24",
+   "lat": 51.26726,
+   "lng": 4.51367,
+   "address": "Brechtsebaan 84",
+   "postcode": "2900",
+   "city": "Schoten",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.139,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.227,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:24.697000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-schoten_99"
+  },
+  {
+   "id": "dats24:106",
+   "name": "DATS 24 Sint-Joris-Winge",
+   "brand": "DATS 24",
+   "lat": 50.90468,
+   "lng": 4.86138,
+   "address": "Leuvensesteenweg 265",
+   "postcode": "3390",
+   "city": "Tielt-Winge",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.918,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.299,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:09:28.467000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-joris-winge_106"
+  },
+  {
+   "id": "dats24:100",
+   "name": "DATS 24 Sint-Katelijne-Waver",
+   "brand": "DATS 24",
+   "lat": 51.03517,
+   "lng": 4.51527,
+   "address": "Putsesteenweg 87",
+   "postcode": "2860",
+   "city": "Sint-Katelijne-Waver",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.958,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.267,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:57:35.856000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-katelijne-waver_100"
+  },
+  {
+   "id": "dats24:117",
+   "name": "DATS 24 Sint-Niklaas",
+   "brand": "DATS 24",
+   "lat": 51.17621,
+   "lng": 4.1904,
+   "address": "Heidebaan 101",
+   "postcode": "9100",
+   "city": "Sint Niklaas",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.199,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.949,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.289,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:22:17.340000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-niklaas_117"
+  },
+  {
+   "id": "dats24:25",
+   "name": "DATS 24 Ukkel/Uccle",
+   "brand": "DATS 24",
+   "lat": 50.79648,
+   "lng": 4.32388,
+   "address": "Rue de Stalle 153",
+   "postcode": "1180",
+   "city": "Ukkel",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.918,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.267,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:03:26.934000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ukkeluccle_25"
+  },
+  {
+   "id": "dats24:49",
+   "name": "DATS 24 Woluwe",
+   "brand": "DATS 24",
+   "lat": 50.8477,
+   "lng": 4.43014,
+   "address": "Vervloesemstraat 146",
+   "postcode": "1200",
+   "city": "St-Lambrechts-Woluwe",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.978,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.326,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:12:20.705000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-woluwe_49"
+  },
+  {
+   "id": "dats24:98",
+   "name": "DATS 24 Zaventem",
+   "brand": "DATS 24",
+   "lat": 50.87172,
+   "lng": 4.47693,
+   "address": "Leuvensesteenweg 500",
+   "postcode": "1930",
+   "city": "Zaventem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.202,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.308,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:59:25.848000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-zaventem_98"
+  },
+  {
+   "id": "dats24:33",
+   "name": "DATS 24 Anderlecht",
+   "brand": "DATS 24",
+   "lat": 50.82781,
+   "lng": 4.30242,
+   "address": "Bergensesteenweg 824",
+   "postcode": "1070",
+   "city": "Anderlecht",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.909,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 11,
+   "pumpsAvailable": 11,
+   "updated": "2026-09-12T17:03:28.932000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-anderlecht_33"
+  },
+  {
+   "id": "dats24:127",
+   "name": "DATS 24 Erpe-Mere",
+   "brand": "DATS 24",
+   "lat": 50.94454,
+   "lng": 3.97297,
+   "address": "Gentsesteenweg 239",
+   "postcode": "9420",
+   "city": "Erpe-Mere",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.149,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.891,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.229,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 7,
+   "pumpsAvailable": 7,
+   "updated": "2026-09-12T17:03:28.439000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-erpe-mere_127"
+  },
+  {
+   "id": "dats24:1",
+   "name": "DATS 24 Evere",
+   "brand": "DATS 24",
+   "lat": 50.86066,
+   "lng": 4.41445,
+   "address": "Oudstrijderslaan 42",
+   "postcode": "1140",
+   "city": "Evere",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.886,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.23,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:23:45.096000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-evere_1"
+  },
+  {
+   "id": "dats24:134",
+   "name": "DATS 24 Haasrode",
+   "brand": "DATS 24",
+   "lat": 50.84969,
+   "lng": 4.72293,
+   "address": "Geldenaaksebaan 448",
+   "postcode": "3001",
+   "city": "Leuven",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.326,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 9,
+   "pumpsAvailable": 9,
+   "updated": "2026-09-12T16:56:12.236000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-haasrode_134"
+  },
+  {
+   "id": "dats24:11",
+   "name": "DATS 24 Heverlee",
+   "brand": "DATS 24",
+   "lat": 50.87147,
+   "lng": 4.68462,
+   "address": "Groenveldstraat 71",
+   "postcode": "3001",
+   "city": "Heverlee",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.257,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:59:19.384000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-heverlee_11"
+  },
+  {
+   "id": "dats24:4",
+   "name": "DATS 24 Merksem",
+   "brand": "DATS 24",
+   "lat": 51.24255,
+   "lng": 4.43061,
+   "address": "Groenendaallaan 111",
+   "postcode": "2170",
+   "city": "Merksem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.978,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:30.224000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-merksem_4"
+  },
+  {
+   "id": "dats24:132",
+   "name": "DATS 24 Wommelgem",
+   "brand": "DATS 24",
+   "lat": 51.207384,
+   "lng": 4.490069,
+   "address": "Autolei 200",
+   "postcode": "2160",
+   "city": "Wommelgem",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.211,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:03:30.759000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wommelgem_132"
+  },
+  {
+   "id": "dats24:135",
+   "name": "DATS 24 Sint-Pieters-Leeuw",
+   "brand": "DATS 24",
+   "lat": 50.7964,
+   "lng": 4.28619,
+   "address": "Bergensesteenweg 201",
+   "postcode": "1600",
+   "city": "Sint-Pieters-Leeuw",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.139,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:22:15.047000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-pieters-leeuw_135"
+  },
+  {
+   "id": "dats24:45",
+   "name": "DATS 24 Overijse",
+   "brand": "DATS 24",
+   "lat": 50.78352,
+   "lng": 4.50582,
+   "address": "Brusselsesteenweg 361",
+   "postcode": "3090",
+   "city": "Overijse",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.172,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.241,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T17:22:16.604000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-overijse_45"
+  },
+  {
+   "id": "dats24:142",
+   "name": "DATS 24 Sint-Genesius-Rode",
+   "brand": "DATS 24",
+   "lat": 50.747299,
+   "lng": 4.394527,
+   "address": "Waterloose Steenweg 194",
+   "postcode": "1640",
+   "city": "Sint-Genesius-Rode",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.269,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:09:17.263000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-genesius-rode_142"
+  },
+  {
+   "id": "dats24:136",
+   "name": "DATS 24 Wilrijk",
+   "brand": "DATS 24",
+   "lat": 51.14959592,
+   "lng": 4.380528652,
+   "address": "Boomsesteenweg 950",
+   "postcode": "2610",
+   "city": "Wilrijk",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.169,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.259,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:52:21.645000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wilrijk_136"
+  },
+  {
+   "id": "dats24:86",
+   "name": "DATS 24 Westmalle",
+   "brand": "DATS 24",
+   "lat": 51.2979,
+   "lng": 4.70242,
+   "address": "Antwerpsesteenweg 148",
+   "postcode": "2390",
+   "city": "Westmalle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.943,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.299,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:03:31.909000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-westmalle_86"
+  },
+  {
+   "id": "dats24:73",
+   "name": "DATS 24 Beringen",
+   "brand": "DATS 24",
+   "lat": 51.07657,
+   "lng": 5.21992,
+   "address": "Koolmijnlaan 321",
+   "postcode": "3581",
+   "city": "Beringen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.971,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.365,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T17:15:04.696000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-beringen_73"
+  },
+  {
+   "id": "dats24:75",
+   "name": "DATS 24 Bree",
+   "brand": "DATS 24",
+   "lat": 51.13874,
+   "lng": 5.60795,
+   "address": "Regenboogstraat 12",
+   "postcode": "3960",
+   "city": "Bree",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.172,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.947,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.261,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T11:22:35.464000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-bree_75"
+  },
+  {
+   "id": "dats24:82",
+   "name": "DATS 24 Diest",
+   "brand": "DATS 24",
+   "lat": 50.97685,
+   "lng": 5.04422,
+   "address": "Leuvensesteenweg 72",
+   "postcode": "3290",
+   "city": "Diest",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.139,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.873,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:03:32.623000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-diest_82"
+  },
+  {
+   "id": "dats24:67",
+   "name": "DATS 24 Balen",
+   "brand": "DATS 24",
+   "lat": 51.1649,
+   "lng": 5.17911,
+   "address": "Schoor 1",
+   "postcode": "2490",
+   "city": "Balen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.879,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.25,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:07:39.282000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-balen_67"
+  },
+  {
+   "id": "dats24:111",
+   "name": "DATS 24 Bilzen",
+   "brand": "DATS 24",
+   "lat": 50.85925,
+   "lng": 5.50104,
+   "address": "Tongersestraat 102",
+   "postcode": "3740",
+   "city": "Bilzen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.193,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.88,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.322,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:21.833000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-bilzen_111"
+  },
+  {
+   "id": "dats24:68",
+   "name": "DATS 24 Maasmechelen",
+   "brand": "DATS 24",
+   "lat": 50.94101,
+   "lng": 5.69253,
+   "address": "Rijksweg 583",
+   "postcode": "3630",
+   "city": "Maasmechelen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.169,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.931,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.283,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:22:24.427000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-maasmechelen_68"
+  },
+  {
+   "id": "dats24:15",
+   "name": "DATS 24 Sint-Truiden",
+   "brand": "DATS 24",
+   "lat": 50.81271,
+   "lng": 5.15293,
+   "address": "Tiensesteenweg 266",
+   "postcode": "3800",
+   "city": "Sint-Truiden",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.319,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T11:07:28.165000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-truiden_15"
+  },
+  {
+   "id": "dats24:90",
+   "name": "DATS 24 Hasselt",
+   "brand": "DATS 24",
+   "lat": 50.94379,
+   "lng": 5.3496,
+   "address": "Genkersteenweg 70",
+   "postcode": "3500",
+   "city": "Hasselt",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.171,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.934,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.323,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T11:18:06.213000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-hasselt_90"
+  },
+  {
+   "id": "dats24:76",
+   "name": "DATS 24 Tongeren",
+   "brand": "DATS 24",
+   "lat": 50.78995,
+   "lng": 5.51461,
+   "address": "Maastrichtersteenweg 477",
+   "postcode": "3700",
+   "city": "Tongeren",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.179,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.973,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T11:52:34.412000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-tongeren_76"
+  },
+  {
+   "id": "dats24:105",
+   "name": "DATS 24 Zolder",
+   "brand": "DATS 24",
+   "lat": 51.01607,
+   "lng": 5.28999,
+   "address": "Meylandtlaan 116",
+   "postcode": "3550",
+   "city": "Heusden Zolder",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.213,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.934,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.299,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:22:26.254000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-zolder_105"
+  },
+  {
+   "id": "dats24:130",
+   "name": "DATS 24 Hechtel-Eksel",
+   "brand": "DATS 24",
+   "lat": 51.12570443,
+   "lng": 5.371395301,
+   "address": "Peerderbaan 17-19",
+   "postcode": "3940",
+   "city": "Hechtel-Eksel",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.214,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.943,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T11:18:43.897000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-hechtel-eksel_130"
+  },
+  {
+   "id": "dats24:51",
+   "name": "DATS 24 Loncin",
+   "brand": "DATS 24",
+   "lat": 50.67235,
+   "lng": 5.49039,
+   "address": "Rue Edouard Colson 316",
+   "postcode": "4431",
+   "city": "Loncin",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.229,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.974,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.365,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T15:49:26.248000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-loncin_51"
+  },
+  {
+   "id": "dats24:133",
+   "name": "DATS 24 Sint-Truiden 2",
+   "brand": "DATS 24",
+   "lat": 50.79786,
+   "lng": 5.21244,
+   "address": "Luikersteenweg 267",
+   "postcode": "3800",
+   "city": "Sint-Truiden",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.319,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:37:34.961000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-sint-truiden-2_133"
+  },
+  {
+   "id": "dats24:131",
+   "name": "DATS 24 Tienen",
+   "brand": "DATS 24",
+   "lat": 50.816017,
+   "lng": 4.909751,
+   "address": "Leuvenselaan 446",
+   "postcode": "3300",
+   "city": "Tienen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.938,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.307,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:35.522000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-tienen_131"
+  },
+  {
+   "id": "dats24:9",
+   "name": "DATS 24 Halle (Ring)",
+   "brand": "DATS 24",
+   "lat": 50.72713,
+   "lng": 4.21738,
+   "address": "Edingensesteenweg 300",
+   "postcode": "1500",
+   "city": "Halle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.927,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.273,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T16:54:59.829000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-halle-ring_9"
+  },
+  {
+   "id": "dats24:52",
+   "name": "DATS 24 Braine -l'Alleud",
+   "brand": "DATS 24",
+   "lat": 50.6975,
+   "lng": 4.3635,
+   "address": "Chaussée d'Alsemberg 469",
+   "postcode": "1420",
+   "city": "Braine-l'Alleud",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.265,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:30.428000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-braine-lalleud_52"
+  },
+  {
+   "id": "dats24:38",
+   "name": "DATS 24 Ghislenghien",
+   "brand": "DATS 24",
+   "lat": 50.65469,
+   "lng": 3.86909,
+   "address": "Rue du Parc Industriel 34",
+   "postcode": "7822",
+   "city": "Ghislenghien",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.27,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T16:01:59.367000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ghislenghien_38"
+  },
+  {
+   "id": "dats24:141",
+   "name": "DATS 24 Ollignies",
+   "brand": "DATS 24",
+   "lat": 50.6789,
+   "lng": 3.86627,
+   "address": "Rue de la Verte Louche 2",
+   "postcode": "7866",
+   "city": "Ollignies",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.27,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 9,
+   "pumpsAvailable": 9,
+   "updated": "2026-09-12T11:52:44.977000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ollignies_141"
+  },
+  {
+   "id": "dats24:6",
+   "name": "DATS 24 Geraardsbergen",
+   "brand": "DATS 24",
+   "lat": 50.75753,
+   "lng": 3.85389,
+   "address": "Groteweg 373",
+   "postcode": "9500",
+   "city": "Geraardsbergen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.149,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:37:32.211000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-geraardsbergen_6"
+  },
+  {
+   "id": "dats24:17",
+   "name": "DATS 24 Gosselies",
+   "brand": "DATS 24",
+   "lat": 50.45968,
+   "lng": 4.43584,
+   "address": "Rue Tahon 37",
+   "postcode": "6041",
+   "city": "Gosselies",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.944,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.293,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T17:37:34.059000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gosselies_17"
+  },
+  {
+   "id": "dats24:104",
+   "name": "DATS 24 Givry",
+   "brand": "DATS 24",
+   "lat": 50.37822,
+   "lng": 4.03756,
+   "address": "Chaussée de Beamont 69A",
+   "postcode": "7041",
+   "city": "Givry",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.209,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.944,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.304,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:22:38.111000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-givry_104"
+  },
+  {
+   "id": "dats24:39",
+   "name": "DATS 24 Gilly",
+   "brand": "DATS 24",
+   "lat": 50.42132,
+   "lng": 4.47797,
+   "address": "Chaussée de Charleroi 61",
+   "postcode": "6060",
+   "city": "Gilly",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.929,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:03:36.804000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gilly_39"
+  },
+  {
+   "id": "dats24:138",
+   "name": "DATS 24 Quaregnon",
+   "brand": "DATS 24",
+   "lat": 50.43907105,
+   "lng": 3.844320436,
+   "address": "Sentier Pied Vert 12",
+   "postcode": "7390",
+   "city": "Quaregnon",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.933,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.301,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:37:35.832000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-quaregnon_138"
+  },
+  {
+   "id": "dats24:109",
+   "name": "DATS 24 Chapelle-les-Herlaimont",
+   "brand": "DATS 24",
+   "lat": 50.46686,
+   "lng": 4.26869,
+   "address": "Rue de Anderlues (R Chapelle Herlaimont) 15",
+   "postcode": "7160",
+   "city": "Chapelle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:37:27.693000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-chapelle-les-herlaimont_109"
+  },
+  {
+   "id": "dats24:30",
+   "name": "DATS 24 Halle (Dassenveld)",
+   "brand": "DATS 24",
+   "lat": 50.72775,
+   "lng": 4.21283,
+   "address": "Zinkstraat 1",
+   "postcode": "1500",
+   "city": "Halle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.273,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.927,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T15:53:11.834000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-halle-dassenveld_30"
+  },
+  {
+   "id": "dats24:2",
+   "name": "DATS 24 Halle (Lembeek)",
+   "brand": "DATS 24",
+   "lat": 50.7196,
+   "lng": 4.22421,
+   "address": "Bergensesteenweg 505",
+   "postcode": "1500",
+   "city": "Halle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.927,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.273,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:22:38.457000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-halle-lembeek_2"
+  },
+  {
+   "id": "dats24:13",
+   "name": "DATS 24 Edingen/Enghien",
+   "brand": "DATS 24",
+   "lat": 50.69092,
+   "lng": 4.03305,
+   "address": "Hovestraat 132",
+   "postcode": "7850",
+   "city": "Edingen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.969,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.365,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:37:38.615000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-edingenenghien_13"
+  },
+  {
+   "id": "dats24:119",
+   "name": "DATS 24 Houdeng",
+   "brand": "DATS 24",
+   "lat": 50.49055,
+   "lng": 4.14876,
+   "address": "Chaussee du Pont du Sart 42",
+   "postcode": "7110",
+   "city": "Houdeng",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.954,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.324,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:07:52.053000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-houdeng_119"
+  },
+  {
+   "id": "dats24:12",
+   "name": "DATS 24 Nivelles",
+   "brand": "DATS 24",
+   "lat": 50.61059,
+   "lng": 4.3372,
+   "address": "Chaussée de Bruxelles 178",
+   "postcode": "1400",
+   "city": "Nivelles",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.221,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.878,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.225,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:41.419000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-nivelles_12"
+  },
+  {
+   "id": "dats24:121",
+   "name": "DATS 24 Morlanwelz",
+   "brand": "DATS 24",
+   "lat": 50.456712,
+   "lng": 4.234444,
+   "address": "Chaussée de Mariemont 36",
+   "postcode": "7140",
+   "city": "Morlanwelz",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.878,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.227,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:37:42.139000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-morlanwelz_121"
+  },
+  {
+   "id": "dats24:81",
+   "name": "DATS 24 Rebecq",
+   "brand": "DATS 24",
+   "lat": 50.65708,
+   "lng": 4.16518,
+   "address": "Chaussee de Mons 27A",
+   "postcode": "1430",
+   "city": "Rebecq",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.384,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:41.786000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-rebecq_81"
+  },
+  {
+   "id": "dats24:79",
+   "name": "DATS 24 Thuin",
+   "brand": "DATS 24",
+   "lat": 50.339025,
+   "lng": 4.311023,
+   "address": "Dreve des Allies 113",
+   "postcode": "6530",
+   "city": "Thuin",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.368,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:39:13.504000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-thuin_79"
+  },
+  {
+   "id": "dats24:97",
+   "name": "DATS 24 Saint-Ghislain",
+   "brand": "DATS 24",
+   "lat": 50.45483,
+   "lng": 3.81205,
+   "address": "rue du Sas 81",
+   "postcode": "7330",
+   "city": "Saint-Ghislain",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.212,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.259,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:53:17.958000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-saint-ghislain_97"
+  },
+  {
+   "id": "dats24:47",
+   "name": "DATS 24 Anderlues",
+   "brand": "DATS 24",
+   "lat": 50.40573,
+   "lng": 4.27369,
+   "address": "Chaussée de Charleroi 2",
+   "postcode": "6150",
+   "city": "Anderlues",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.918,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.281,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:49.336000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-anderlues_47"
+  },
+  {
+   "id": "dats24:114",
+   "name": "DATS 24 Basecles",
+   "brand": "DATS 24",
+   "lat": 50.51243,
+   "lng": 3.6793,
+   "address": "Rue de Tournai 163",
+   "postcode": "7972",
+   "city": "Quevaucamps",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.958,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.307,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:48:20.749000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-basecles_114"
+  },
+  {
+   "id": "dats24:18",
+   "name": "DATS 24 Ath",
+   "brand": "DATS 24",
+   "lat": 50.63404,
+   "lng": 3.78908,
+   "address": "Chaussée de Bruxelles 116",
+   "postcode": "7800",
+   "city": "Ath",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.307,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:00:04.442000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ath_18"
+  },
+  {
+   "id": "dats24:123",
+   "name": "DATS 24 Braine 2",
+   "brand": "DATS 24",
+   "lat": 50.69141,
+   "lng": 4.32543,
+   "address": "Chaussée de Tubize 489",
+   "postcode": "1420",
+   "city": "Braine-l'Alleud",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.921,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.265,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:22:51.170000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-braine-2_123"
+  },
+  {
+   "id": "dats24:140",
+   "name": "DATS 24 Binche",
+   "brand": "DATS 24",
+   "lat": 50.42162581,
+   "lng": 4.171403314,
+   "address": "Rue Zephirin Fontain 158",
+   "postcode": "7130",
+   "city": "Binche",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.169,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.227,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:08:47.247000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-binche_140"
+  },
+  {
+   "id": "dats24:48",
+   "name": "DATS 24 Courcelles",
+   "brand": "DATS 24",
+   "lat": 50.45623,
+   "lng": 4.37262,
+   "address": "Rue Baudouin Ier 78",
+   "postcode": "6180",
+   "city": "Courcelles",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.32,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:21:47.767000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-courcelles_48"
+  },
+  {
+   "id": "dats24:46",
+   "name": "DATS 24 Dour",
+   "brand": "DATS 24",
+   "lat": 50.39667,
+   "lng": 3.76924,
+   "address": "Rue d'Elouges 104",
+   "postcode": "7370",
+   "city": "Dour",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.94,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T11:53:11.411000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-dour_46"
+  },
+  {
+   "id": "dats24:102",
+   "name": "DATS 24 Frameries",
+   "brand": "DATS 24",
+   "lat": 50.40811,
+   "lng": 3.88834,
+   "address": "Rue Josephe Dufrane 76",
+   "postcode": "7080",
+   "city": "Frameries",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.32,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:13:16.257000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-frameries_102"
+  },
+  {
+   "id": "dats24:120",
+   "name": "DATS 24 Genappe",
+   "brand": "DATS 24",
+   "lat": 50.61485068,
+   "lng": 4.453610458,
+   "address": "Rue des Lilas 25",
+   "postcode": "1470",
+   "city": "Genappe",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.32,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:09:56.410000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-genappe_120"
+  },
+  {
+   "id": "dats24:16",
+   "name": "DATS 24 Marcinelle",
+   "brand": "DATS 24",
+   "lat": 50.39823,
+   "lng": 4.44601,
+   "address": "Rue du Grand-pont 16",
+   "postcode": "6001",
+   "city": "Marcinelle",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.214,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.923,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.252,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T11:07:55.299000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-marcinelle_16"
+  },
+  {
+   "id": "dats24:88",
+   "name": "DATS 24 Peruwelz",
+   "brand": "DATS 24",
+   "lat": 50.52207,
+   "lng": 3.60049,
+   "address": "Rue Neuve Chaussee 131",
+   "postcode": "7600",
+   "city": "Peruwelz",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.151,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.919,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.229,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:42:17.017000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-peruwelz_88"
+  },
+  {
+   "id": "dats24:32",
+   "name": "DATS 24 Mons",
+   "brand": "DATS 24",
+   "lat": 50.45241,
+   "lng": 3.97651,
+   "address": "Chaussee de Binche 121",
+   "postcode": "7000",
+   "city": "Mons",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.099,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.918,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.284,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:40.312000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-mons_32"
+  },
+  {
+   "id": "dats24:143",
+   "name": "DATS 24 Gerpinnes",
+   "brand": "DATS 24",
+   "lat": 50.32892,
+   "lng": 4.47636,
+   "address": "Chaussée de Philippeville 265",
+   "postcode": "6280",
+   "city": "Gerpinnes",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.989,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.327,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:37:58.030000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gerpinnes_143"
+  },
+  {
+   "id": "dats24:8",
+   "name": "DATS 24 Boncelles",
+   "brand": "DATS 24",
+   "lat": 50.56755,
+   "lng": 5.55052,
+   "address": "route du Condroz 19",
+   "postcode": "4100",
+   "city": "Boncelles",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.975,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:59:12.559000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-boncelles_8"
+  },
+  {
+   "id": "dats24:23",
+   "name": "DATS 24 Ans",
+   "brand": "DATS 24",
+   "lat": 50.6588,
+   "lng": 5.53278,
+   "address": "Rue des Français 88-1",
+   "postcode": "4430",
+   "city": "Ans",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.908,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.257,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 10,
+   "pumpsAvailable": 10,
+   "updated": "2026-09-12T16:23:06.474000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ans_23"
+  },
+  {
+   "id": "dats24:72",
+   "name": "DATS 24 Beyne - Heusay",
+   "brand": "DATS 24",
+   "lat": 50.62208,
+   "lng": 5.65394,
+   "address": "Grand Route 246",
+   "postcode": "4610",
+   "city": "Beyne Heusay",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.249,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:23:00.097000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-beyne-heusay_72"
+  },
+  {
+   "id": "dats24:24",
+   "name": "DATS 24 Ben-Ahin",
+   "brand": "DATS 24",
+   "lat": 50.52224,
+   "lng": 5.21767,
+   "address": "Chaussée de Dinant 5",
+   "postcode": "4500",
+   "city": "Ben-Ahin",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.933,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.324,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:22:59.345000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-ben-ahin_24"
+  },
+  {
+   "id": "dats24:145",
+   "name": "DATS 24 Chenee",
+   "brand": "DATS 24",
+   "lat": 50.6065328,
+   "lng": 5.612165792,
+   "address": "Boulevard de l'Ourthe 8",
+   "postcode": "4032",
+   "city": "Chenee",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.874,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.235,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:09:49.655000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-chenee_145"
+  },
+  {
+   "id": "dats24:56",
+   "name": "DATS 24 Amay",
+   "brand": "DATS 24",
+   "lat": 50.55736,
+   "lng": 5.30567,
+   "address": "Chaussée de Tongres 247",
+   "postcode": "4540",
+   "city": "Amay",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.933,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.323,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:37:59.024000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-amay_56"
+  },
+  {
+   "id": "dats24:41",
+   "name": "DATS 24 Eupen",
+   "brand": "DATS 24",
+   "lat": 50.63736,
+   "lng": 6.01957,
+   "address": "Herbesthalerstrasse 201",
+   "postcode": "4700",
+   "city": "Eupen",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.923,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.294,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T15:39:48.910000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-eupen_41"
+  },
+  {
+   "id": "dats24:29",
+   "name": "DATS 24 Herstal",
+   "brand": "DATS 24",
+   "lat": 50.65932,
+   "lng": 5.62879,
+   "address": "Bld Zenobe Gramme 17",
+   "postcode": "4040",
+   "city": "Herstal",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.209,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.928,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.279,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:10:00.685000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-herstal_29"
+  },
+  {
+   "id": "dats24:64",
+   "name": "DATS 24 Herve",
+   "brand": "DATS 24",
+   "lat": 50.63787,
+   "lng": 5.77505,
+   "address": "Outre-Cour 37",
+   "postcode": "4651",
+   "city": "Battice",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.214,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.963,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.307,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "H2",
+     "label": "Waterstof",
+     "price": 11.98,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 5,
+   "pumpsAvailable": 5,
+   "updated": "2026-09-12T16:10:03.327000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-herve_64"
+  },
+  {
+   "id": "dats24:34",
+   "name": "DATS 24 Gretry (Liege)",
+   "brand": "DATS 24",
+   "lat": 50.63046,
+   "lng": 5.58652,
+   "address": "Rue Gretry 235",
+   "postcode": "4020",
+   "city": "Liege",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.874,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.235,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T16:23:13.210000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gretry-liege_34"
+  },
+  {
+   "id": "dats24:71",
+   "name": "DATS 24 Seraing",
+   "brand": "DATS 24",
+   "lat": 50.6077,
+   "lng": 5.51573,
+   "address": "Rue Puits Marie 61",
+   "postcode": "4100",
+   "city": "Seraing",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.209,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.934,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.323,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T16:28:10.920000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-seraing_71"
+  },
+  {
+   "id": "dats24:113",
+   "name": "DATS 24 Gembloux",
+   "brand": "DATS 24",
+   "lat": 50.55032,
+   "lng": 4.71313,
+   "address": "Chaussée de Namur 157",
+   "postcode": "5030",
+   "city": "Gembloux",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.888,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.239,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:08:32.530000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-gembloux_113"
+  },
+  {
+   "id": "dats24:91",
+   "name": "DATS 24 Namur SA",
+   "brand": "DATS 24",
+   "lat": 50.45039,
+   "lng": 4.83487,
+   "address": "Chaussée de Charleroi 153 B",
+   "postcode": "5000",
+   "city": "Namur",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.92,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.281,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 12,
+   "pumpsAvailable": 12,
+   "updated": "2026-09-12T17:14:57.106000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-namur-sa_91"
+  },
+  {
+   "id": "dats24:69",
+   "name": "DATS 24 Grez-Doiceau",
+   "brand": "DATS 24",
+   "lat": 50.74339,
+   "lng": 4.67761,
+   "address": "Chaussée de Wavre 202",
+   "postcode": "1390",
+   "city": "Grez-Doiceau",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.961,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.315,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:23:07.782000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-grez-doiceau_69"
+  },
+  {
+   "id": "dats24:60",
+   "name": "DATS 24 Marbais",
+   "brand": "DATS 24",
+   "lat": 50.53597,
+   "lng": 4.54893,
+   "address": "Chaussée de Namur 264",
+   "postcode": "1495",
+   "city": "Marbais",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.232,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.889,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.229,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:23:08.308000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-marbais_60"
+  },
+  {
+   "id": "dats24:36",
+   "name": "DATS 24 Salzinnes",
+   "brand": "DATS 24",
+   "lat": 50.463587,
+   "lng": 4.843584,
+   "address": "Chaussee de Charleroi 16",
+   "postcode": "5000",
+   "city": "Namur",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.225,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 2,
+   "pumpsAvailable": 2,
+   "updated": "2026-09-12T17:38:06.727000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-salzinnes_36"
+  },
+  {
+   "id": "dats24:3",
+   "name": "DATS 24 Wavre",
+   "brand": "DATS 24",
+   "lat": 50.71709,
+   "lng": 4.61569,
+   "address": "Avenue des Princes 45",
+   "postcode": "1300",
+   "city": "Wavre",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 2.036,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.285,
+     "ceiling": 2.407
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T15:44:23.672000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wavre_3"
+  },
+  {
+   "id": "dats24:28",
+   "name": "DATS 24 Jemeppe",
+   "brand": "DATS 24",
+   "lat": 50.45499,
+   "lng": 4.6432,
+   "address": "Chaussee de Charleroi 39",
+   "postcode": "5190",
+   "city": "Jemeppe-sur-Sambre",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.926,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.347,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 8,
+   "pumpsAvailable": 8,
+   "updated": "2026-09-12T17:38:09.249000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-jemeppe_28"
+  },
+  {
+   "id": "dats24:50",
+   "name": "DATS 24 Rochefort",
+   "brand": "DATS 24",
+   "lat": 50.16606,
+   "lng": 5.21102,
+   "address": "Rue de Dinant 52",
+   "postcode": "5580",
+   "city": "Rochefort",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.342,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.999,
+     "ceiling": 2.058
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:23:11.645000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-rochefort_50"
+  },
+  {
+   "id": "dats24:149",
+   "name": "DATS 24 Andenne",
+   "brand": "DATS 24",
+   "lat": 50.50137,
+   "lng": 5.09311,
+   "address": "Rue Tramaka 2B",
+   "postcode": "5300",
+   "city": "Seilles",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 2.008,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.365,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T16:00:08.966000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-andenne_149"
+  },
+  {
+   "id": "dats24:147",
+   "name": "DATS 24 Wierde",
+   "brand": "DATS 24",
+   "lat": 50.4367,
+   "lng": 4.91217,
+   "address": "CHAUSSEE DE MARCHE 650",
+   "postcode": "5100",
+   "city": "Wierde",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.224,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.912,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.227,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    },
+    {
+     "fuel": "CNG",
+     "label": "CNG",
+     "price": 1.949,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 4,
+   "pumpsAvailable": 4,
+   "updated": "2026-09-12T17:03:42.664000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-wierde_147"
+  },
+  {
+   "id": "dats24:144",
+   "name": "DATS 24 Champion",
+   "brand": "DATS 24",
+   "lat": 50.488909,
+   "lng": 4.894297,
+   "address": "Chaussee de Louvain 552",
+   "postcode": "5020",
+   "city": "Champion",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.222,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.899,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.225,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 5,
+   "pumpsAvailable": 5,
+   "updated": "2026-09-12T16:00:26.781000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-champion_144"
+  },
+  {
+   "id": "dats24:139",
+   "name": "DATS 24 Jodoigne",
+   "brand": "DATS 24",
+   "lat": 50.724171,
+   "lng": 4.858528,
+   "address": "Chausée de Wavre 80-82",
+   "postcode": "1370",
+   "city": "Jodoigne",
+   "available": true,
+   "prices": [
+    {
+     "fuel": "SP98",
+     "label": "Super 98",
+     "price": 2.134,
+     "ceiling": 2.234
+    },
+    {
+     "fuel": "E10",
+     "label": "Euro 95 (E10)",
+     "price": 1.933,
+     "ceiling": 2.058
+    },
+    {
+     "fuel": "GO",
+     "label": "Diesel",
+     "price": 2.287,
+     "ceiling": 2.407
+    },
+    {
+     "fuel": "ADBLUE",
+     "label": "AdBlue",
+     "price": 0.995,
+     "ceiling": null
+    }
+   ],
+   "pumpsTotal": 6,
+   "pumpsAvailable": 6,
+   "updated": "2026-09-12T17:08:52.013000+00:00",
+   "source": "dats24",
+   "sourceUrl": "https://dats24.be/nl/particulier/sdp/tankstation-jodoigne_139"
+  }
+ ]
+}
