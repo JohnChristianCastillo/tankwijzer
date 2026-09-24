@@ -50,6 +50,13 @@ jobs:
         working-directory: backend
         run: python tools/snapshot.py ${{ inputs.force && '--force' || '' }}
 
+      - name: Update the price history
+        working-directory: backend
+        # A failed history update keeps the previous history.json from the data
+        # branch, so it must not stop today's station prices from publishing.
+        continue-on-error: true
+        run: python tools/history.py
+
       - name: Publish the data branch
         run: |
           git config user.name "github-actions[bot]"
