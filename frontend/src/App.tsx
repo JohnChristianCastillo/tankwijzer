@@ -1,19 +1,21 @@
-/** Wires the snapshot, the controls and the two views (map and list) together. */
+/** Wires the snapshot, the controls, the two views (map and list) and the history together. */
 
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import { buildViews, formatPrice, loadSnapshot } from "./api";
+import { buildViews, formatPrice, loadHistory, loadSnapshot } from "./api";
 import { centreForPostcode, type Point } from "./geo";
 import { DEFAULT_PREFS, loadPrefs, savePrefs } from "./prefs";
 import { Controls } from "./components/Controls";
 import { StationCard, cardId } from "./components/StationCard";
 import { StationMap } from "./components/StationMap";
 import { Footer } from "./components/Footer";
-import type { FuelCode, Snapshot } from "./types";
+import { PriceHistory } from "./components/PriceHistory";
+import type { FuelCode, PriceHistory as History, Snapshot } from "./types";
 
 export function App() {
   const [snapshot, setSnapshot] = useState<Snapshot | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [history, setHistory] = useState<History | null>(null);
 
   const [prefs, setPrefs] = useState(DEFAULT_PREFS);
   const [origin, setOrigin] = useState<Point | null>(null);
@@ -29,6 +31,7 @@ export function App() {
     const fromHash = decodeURIComponent(window.location.hash.replace(/^#/, ""));
     if (fromHash) setSelectedId(fromHash);
     loadSnapshot().then(setSnapshot).catch((err: Error) => setError(err.message));
+    loadHistory().then(setHistory);
   }, []);
 
   useEffect(() => {
@@ -204,6 +207,15 @@ export function App() {
           </ul>
         </section>
       </div>
+
+      {history && (
+        <PriceHistory
+          history={history}
+          fuel={prefs.fuel}
+          range={prefs.historyRange}
+          onRange={(historyRange) => setPrefs({ ...prefs, historyRange })}
+        />
+      )}
 
       <Footer generated={snapshot.generated} />
     </main>

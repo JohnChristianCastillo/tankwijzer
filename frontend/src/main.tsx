@@ -9,6 +9,7 @@ import "./styles/base.css";
 import "./styles/layout.css";
 import "./styles/map.css";
 import "./styles/stations.css";
+import "./styles/history.css";
 
 const container = document.getElementById("root");
 if (!container) {
