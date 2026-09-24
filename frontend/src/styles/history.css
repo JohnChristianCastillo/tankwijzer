@@ -1,4 +1,4 @@
-/* The maximum price history: card, range picker, stats, chart and table view. */
+/* The price history: card, product and source pickers, credits, stats, chart, table. */
 
 .history {
   margin-top: 20px;
@@ -10,6 +10,9 @@
 }
 
 .history-head {
+  /* The credits panel is placed against the header, not the small button, so
+     it always has the full card width to open into. */
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,15 +20,133 @@
   gap: 10px 16px;
 }
 
+.history-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+
 .history-title {
   margin: 0;
   font-size: 17px;
 }
 
-.history-subtitle {
-  margin: 2px 0 0;
+.history-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+/* A short stroke in the source colour: the legend, the chip and the tooltip all
+   key a source the same way, so the colour is never the only cue on its own. */
+.line-key {
+  display: inline-block;
+  width: 14px;
+  height: 0;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-top: 2px solid currentColor;
+  border-radius: 1px;
+}
+
+.key-fod {
+  color: var(--series-fod);
+}
+
+.key-dats24 {
+  color: var(--series-dats24);
+}
+
+.source-chip {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Switched off: the chip stays readable but its key fades, like a hidden series. */
+.source-chip:not(.is-on) {
   color: var(--text-soft);
+}
+
+.source-chip:not(.is-on) .line-key {
+  opacity: 0.35;
+}
+
+.source-chip.is-on {
+  background: var(--surface);
+  border-color: var(--text-soft);
+  font-weight: 600;
+}
+
+/* The last source switched on cannot be switched off, but it is not disabled
+   in any sense a reader cares about, so it keeps its full colour. */
+.source-chip.is-on:disabled {
+  opacity: 1;
+}
+
+
+.info-button {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: var(--text-soft);
+  cursor: pointer;
+}
+
+.info-button:hover,
+.info-button[aria-expanded="true"] {
+  border-color: var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+}
+
+.info-button svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
+
+.info-button .info-dot {
+  fill: currentColor;
+  stroke: none;
+}
+
+.info-panel {
+  position: absolute;
+  z-index: 1000;
+  top: 42px;
+  left: 0;
+  width: min(420px, 100%);
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 24px rgba(20, 25, 35, 0.18);
   font-size: 13px;
+}
+
+.info-panel h3 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.info-panel p {
+  margin: 0 0 8px;
+  color: var(--text-soft);
+}
+
+.info-panel strong {
+  color: var(--text);
+}
+
+.info-meta {
+  opacity: 0.8;
 }
 
 .history-frame {
@@ -35,13 +156,23 @@
 }
 
 .history-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 22px;
   margin: 0 0 8px;
 }
 
-.history-stats div {
+.history-stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 22px;
+  margin: 0 0 4px;
+}
+
+.history-stat-name {
+  min-width: 118px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.history-stat-row div {
   display: flex;
   gap: 6px;
   align-items: baseline;
@@ -93,14 +224,33 @@
 
 .history-line {
   fill: none;
-  stroke: var(--accent);
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
 }
 
+.stroke-fod {
+  stroke: var(--series-fod);
+}
+
+.stroke-dats24 {
+  stroke: var(--series-dats24);
+}
+
+.fill-fod {
+  fill: var(--series-fod);
+}
+
+.fill-dats24 {
+  fill: var(--series-dats24);
+}
+
+/* The spread between stations: a wash behind the line, never a solid block. */
+.history-band {
+  opacity: 0.14;
+}
+
 .history-dot {
-  fill: var(--accent);
   stroke: var(--surface);
   stroke-width: 2;
 }
@@ -121,7 +271,7 @@
   top: 8px;
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 3px;
   padding: 6px 10px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -132,9 +282,29 @@
   pointer-events: none;
 }
 
-.history-tip span {
+.history-tip-date {
   color: var(--text-soft);
   font-size: 12px;
+}
+
+.history-tip-row {
+  display: flex;
+  align-items: baseline;
+}
+
+.history-tip-row .line-key {
+  flex: none;
+  align-self: center;
+}
+
+.history-tip-row small {
+  display: block;
+  color: var(--text-soft);
+  font-size: 12px;
+}
+
+.history-tip-none {
+  color: var(--text-soft);
 }
 
 .history-table {
@@ -151,7 +321,7 @@
   display: block;
   max-height: 260px;
   overflow-y: auto;
-  margin-top: 6px;
+  margin-top: 10px;
   border-collapse: collapse;
   font-variant-numeric: tabular-nums;
 }
@@ -159,6 +329,13 @@
 .history-table th,
 .history-table td {
   padding: 3px 18px 3px 0;
+  text-align: left;
+}
+
+.history-table caption {
+  padding-bottom: 4px;
+  color: var(--text);
+  font-weight: 600;
   text-align: left;
 }
 
@@ -173,5 +350,17 @@
 @media (max-width: 560px) {
   .history {
     padding: 12px 10px 10px;
+  }
+
+  /* Two by two under the source name, rather than four lines each. */
+  .history-stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 12px;
+    margin-bottom: 8px;
+  }
+
+  .history-stat-name {
+    grid-column: 1 / -1;
   }
 }

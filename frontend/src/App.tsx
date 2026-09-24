@@ -214,6 +214,8 @@ export function App() {
           fuel={prefs.fuel}
           range={prefs.historyRange}
           onRange={(historyRange) => setPrefs({ ...prefs, historyRange })}
+          sources={prefs.historySources}
+          onSources={(historySources) => setPrefs({ ...prefs, historySources })}
         />
       )}
 
