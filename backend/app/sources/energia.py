@@ -29,12 +29,20 @@ USER_AGENT = "tankwijzer/0.1 (personal non-commercial fuel price viewer)"
 FIRST_YEAR = 2018
 
 # Export column headers mapped onto the codes this project uses everywhere else.
-# These are the same products DATS 24 carries a ceiling for. CNG is not part of
-# the FOD tariff, so it has no history to read.
+# Every product sold at a pump is read. E10, SP98 and GO are the codes DATS 24
+# uses too. Heating oil, bulk propane and the other products delivered by truck
+# are left out: they are not bought at a station, and heating oil changes almost
+# every working day, which would triple the file for no one using this app.
+# CNG is not part of the FOD tariff, so it has no history to read.
 COLUMNS = {
     "Benzine 95 RON - E10": "E10",
+    "Benzine 95 RON - E5": "E5",
     "Benzine 98 RON - E5": "SP98",
+    "Benzine 98 RON - E10": "SP98_E10",
     "Diesel - B7": "GO",
+    "Diesel - B10": "B10",
+    "Diesel - XTL": "XTL",
+    "LPG": "LPG",
 }
 
 HEADER_ROW = 2

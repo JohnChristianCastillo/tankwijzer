@@ -27,7 +27,7 @@ def _parse() -> dict:
 def test_reads_every_fuel_the_app_offers() -> None:
     series = _parse()
 
-    assert set(series) == {"E10", "SP98", "GO"}, set(series)
+    assert set(series) == {"E10", "E5", "SP98", "SP98_E10", "GO", "B10", "XTL", "LPG"}, set(series)
     for code, points in series.items():
         assert points, f"no change points for {code}"
 
@@ -49,9 +49,10 @@ def test_matches_the_published_tariff() -> None:
 
 def test_blank_cells_are_not_read_as_changes() -> None:
     # Rows where only heating oil moved leave the fuels blank. Those must not
-    # become zero prices or repeated points.
+    # become zero prices. LPG sits well under a euro, and the XTL ceiling went
+    # just past three euro in late 2021.
     for code, points in _parse().items():
-        assert all(1.0 < price < 3.0 for _, price in points), code
+        assert all(0.3 < price < 4.0 for _, price in points), code
 
 
 def test_rejects_something_that_is_not_an_export() -> None:
