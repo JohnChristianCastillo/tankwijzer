@@ -1,8 +1,9 @@
 /** Loads the published snapshot and derives the views the UI renders from it. */
 
-import type { FuelCode, Snapshot, Station, StationView } from "./types";
+import type { FuelCode, PriceHistory, Snapshot, Station, StationView } from "./types";
 
 const DATA_URL = "/data/stations.json";
+const HISTORY_URL = "/data/history.json";
 
 export async function loadSnapshot(): Promise<Snapshot> {
   const response = await fetch(DATA_URL, { cache: "no-cache" });
@@ -10,6 +11,20 @@ export async function loadSnapshot(): Promise<Snapshot> {
     throw new Error(`Kon de prijzen niet laden (${response.status})`);
   }
   return (await response.json()) as Snapshot;
+}
+
+/**
+ * The maximum price history, or null when it cannot be loaded. The history is an
+ * extra: a missing file must never take the station prices down with it.
+ */
+export async function loadHistory(): Promise<PriceHistory | null> {
+  try {
+    const response = await fetch(HISTORY_URL, { cache: "no-cache" });
+    if (!response.ok) return null;
+    return (await response.json()) as PriceHistory;
+  } catch {
+    return null;
+  }
 }
 
 /** Great circle distance in kilometres. */

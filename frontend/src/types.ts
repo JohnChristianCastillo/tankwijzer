@@ -51,3 +51,14 @@ export interface StationView extends Station {
   selectedPrice: Price | null;
   distanceKm: number | null;
 }
+
+/** One tariff change: the day it took effect and the maximum price from then on. */
+export type HistoryPoint = [day: string, price: number];
+
+/** The published price history. Must match backend/tools/history.py. */
+export interface PriceHistory {
+  generated: string;
+  source: string;
+  sourceUrl: string;
+  series: Partial<Record<FuelCode, HistoryPoint[]>>;
+}
