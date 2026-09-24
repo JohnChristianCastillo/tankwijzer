@@ -2,3 +2,4 @@
 # Cloudflare build, where a CRLF shebang line fails with a confusing error.
 * text=auto eol=lf
 *.png binary
+*.xls binary
