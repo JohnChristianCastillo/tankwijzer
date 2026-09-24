@@ -155,13 +155,19 @@ export function timeTicks(start: number, end: number, width: number): Tick[] {
   return ticks.filter((_, index) => index % every === 0);
 }
 
-/** Round price ticks around the data, about four of them. */
+/**
+ * Round price ticks around the data, about five of them. A flat week still gets
+ * a few cents of room, so an unchanged price reads as flat rather than magnified.
+ */
 export function priceTicks(low: number, high: number): number[] {
-  const spread = Math.max(high - low, 0.02);
-  const raw = spread / 4;
+  const middle = (low + high) / 2;
+  const spread = Math.max(high - low, 0.04);
+  const bottom = Math.min(low, middle - spread / 2);
+  const top = Math.max(high, middle + spread / 2);
+  const raw = spread / 5;
   const step = [0.005, 0.01, 0.02, 0.025, 0.05, 0.1, 0.2, 0.25, 0.5].find((s) => s >= raw) ?? 1;
-  const first = Math.floor((low - spread * 0.08) / step) * step;
-  const last = Math.ceil((high + spread * 0.08) / step) * step;
+  const first = Math.floor((bottom - spread * 0.03) / step) * step;
+  const last = Math.ceil((top + spread * 0.03) / step) * step;
   const ticks: number[] = [];
   for (let value = first; value <= last + step / 2; value += step) {
     ticks.push(Math.round(value * 1000) / 1000);
