@@ -13,7 +13,11 @@ export function Footer({ generated }: Props) {
       <p>
         Prijzen van <a href="https://dats24.be" target="_blank" rel="noreferrer">DATS 24</a>,
         zoals zij die zelf publiceren. Officiele maximumprijs van de FOD Economie, meegeleverd
-        bij diezelfde prijzen. Kaart van{" "}
+        bij diezelfde prijzen. Het verloop van de maximumprijs komt uit de databank van{" "}
+        <a href="https://www.energiafed.be/nl/maximumprijzen/databank" target="_blank" rel="noreferrer">
+          Energia
+        </a>
+        . Kaart van{" "}
         <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
           OpenStreetMap
         </a>
