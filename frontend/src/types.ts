@@ -52,13 +52,20 @@ export interface StationView extends Station {
   distanceKm: number | null;
 }
 
-/** One tariff change: the day it took effect and the maximum price from then on. */
-export type HistoryPoint = [day: string, price: number];
+/** Where a history line comes from. Each can be shown or hidden on its own. */
+export type SourceKey = "fod" | "dats24";
+
+/** FOD maximum, one tariff change: the day it took effect and the price from then on. */
+export type FodPoint = [day: string, price: number];
+
+/** DATS 24, one observed day across all its stations. */
+export type DailyPoint = [day: string, median: number, cheapest: number, dearest: number, stations: number];
 
 /** The published price history. Must match backend/tools/history.py. */
 export interface PriceHistory {
   generated: string;
-  source: string;
-  sourceUrl: string;
-  series: Partial<Record<FuelCode, HistoryPoint[]>>;
+  sources: {
+    fod: { series: Partial<Record<string, FodPoint[]>> };
+    dats24: { series: Partial<Record<string, DailyPoint[]>> };
+  };
 }
