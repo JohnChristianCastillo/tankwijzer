@@ -1,8 +1,8 @@
 # Tankwijzer
 
 Brandstofprijzen bij DATS 24 in Belgie, in het Nederlands, met de officiele
-maximumprijs van de FOD Economie ernaast, en het verloop van die maximumprijs sinds
-2018. Euro 95 (E10) staat standaard aan.
+maximumprijs van de FOD Economie ernaast, en het prijsverloop: de maximumprijs sinds
+2018 en de DATS 24 pompprijzen sinds 6 september 2026. Euro 95 (E10) staat standaard aan.
 
 A static site. Prices are precomputed into JSON files by a scheduled job, so the
 published page calls no API at all and nothing has to be running for it to work.
@@ -23,10 +23,12 @@ price this project cannot source is not a price it invents.
 ```
 backend/
   app/models.py           Station and FuelPrice, the published data contract
+  app/archive.py          every price observation ever made, append only
   app/sources/dats24.py   the only file that knows how DATS 24 shapes its pages
   app/sources/energia.py  the only file that knows how Energia shapes its exports
   tools/snapshot.py       the batch job that writes the snapshot
-  tools/history.py        the batch job that writes the maximum price history
+  tools/history.py        the batch job that writes the history, per source
+  tools/import_snapshots.py  puts older published snapshots into the archive
   tests/                  parser tests against real captured records
 frontend/
   src/api.ts              loading, distance, sorting, the Waze link
@@ -51,6 +53,7 @@ python tools/history.py                # maximum price history, only the recent 
 python tools/history.py --full         # rebuild the history from 2018
 python tests/test_dats24.py            # parser tests, no network
 python tests/test_energia.py
+python tests/test_archive.py
 
 # site, from frontend/
 npm install
@@ -58,28 +61,46 @@ npm run dev
 npm run build
 ```
 
-The snapshot writes `frontend/public/data/stations.json` and the history job writes
-`history.json` next to it. Both are gitignored and reach production through the
-orphan `data` branch, never through `main`.
+The snapshot writes `frontend/public/data/stations.json` and records the same prices in
+`archive/dats24/<month>.json`. The history job writes `history.json` next to the
+snapshot. All of it is gitignored and reaches the orphan `data` branch through
+`scripts/publish-data.sh`, never `main`. The site serves `data/` only; the archive
+lives on the branch but is not part of the site.
 
 `snapshot.py` refuses to overwrite a good snapshot with one covering far fewer
-stations, and `history.py` refuses to write a history shorter than the last one.
+stations, and `history.py` refuses an FOD history shorter than the last one.
 Pass `--force` when the change is real.
+
+`publish-data.sh` refuses to push when any file on the data branch would disappear
+or any archive file would get smaller. The archive is the only copy of DATS 24 prices
+from the past, which cannot be fetched again, so a run that started from a missing
+copy must fail rather than replace it. `ALLOW_DROP=1` overrides this.
 
 ## Price history
 
-The chart shows the official maximum price, not a pump price, because no source
-has years of Belgian pump prices. FOD Economie only publishes the current tariff;
-Energia, the fuel federation, republishes the full daily history per year since
-2018. The history holds change points only, since the maximum is a step function:
-about 320 per fuel, around 20 KB for Euro 95, diesel and Super 98 together. CNG is
-not part of the FOD tariff and has no history.
+Two sources, kept apart so the chart can show either or both.
+
+**The official maximum.** FOD Economie only publishes the current tariff. Energia,
+the fuel federation, republishes the full daily history per year since 2018, which
+they allow for non-commercial use with the source named. Change points only, since
+the maximum holds until the next tariff: about 350 per fuel for the eight fuels sold
+at a pump. Heating oil and other products delivered by truck are left out.
+
+**DATS 24.** What DATS 24 actually charged, per day the median over all stations plus
+the cheapest and dearest. Nobody publishes this history, so it only exists because
+every run is kept in the archive. It starts on 6 September 2026: runs before the
+archive existed were recovered from the data branch's overwritten commits and
+imported with `tools/import_snapshots.py`.
+
+`history.json` is about 58 KB, 13 KB gzipped. The DATS 24 part grows by roughly
+65 KB a year, the archive by roughly 6 MB a year.
 
 ## Data and attribution
 
 Prices from DATS 24, as they publish them. Official maximum prices from FOD Economie,
 carried in the same records. The history of the maximum price from the
-[Energia databank](https://www.energiafed.be/nl/maximumprijzen/databank). Map tiles and geography from OpenStreetMap, under ODbL.
+[Energia databank](https://www.energiafed.be/nl/maximumprijzen/databank), checked
+against [Statbel](https://statbel.fgov.be/nl/themas/energie/aardolieprijzen). Map tiles and geography from OpenStreetMap, under ODbL.
 
 Independent hobby project, not affiliated with DATS 24. Prices are informational; the
 price on the pump is the one that counts.
