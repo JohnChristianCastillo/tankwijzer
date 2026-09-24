@@ -37,13 +37,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r backend/requirements.txt
 
-      - name: Fetch the existing snapshot
+      - name: Restore the published data and the archive
         run: |
+          # No data branch yet is fine on a first run. A data branch that exists
+          # but cannot be fetched is not: this job would build on nothing, and the
+          # archive is the one thing that cannot be rebuilt. publish-data.sh would
+          # refuse to push anyway, but failing here says why.
           mkdir -p frontend/public/data
-          if git fetch --depth 1 origin data 2>/dev/null; then
-            git archive FETCH_HEAD data | tar -x
+          status=0
+          git ls-remote --exit-code --heads origin data >/dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch --depth 1 origin data
+            git archive FETCH_HEAD | tar -x
             cp -r data/. frontend/public/data/
             rm -rf data
+            echo "restored: $(ls frontend/public/data | tr '\n' ' ')$(ls archive 2>/dev/null | sed 's/^/archive\//')"
+          elif [ "$status" -eq 2 ]; then
+            echo "no data branch yet, starting empty"
+          else
+            echo "could not reach the data branch (git exit $status)"
+            exit 1
           fi
 
       - name: Build the snapshot
