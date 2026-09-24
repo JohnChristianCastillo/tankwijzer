@@ -76,6 +76,22 @@ def test_a_corrupt_month_stops_the_run() -> None:
         raise AssertionError("a corrupt month was silently replaced")
 
 
+def test_daily_summary_takes_the_last_run_of_each_day() -> None:
+    observations = {
+        "2026-09-24T05:03:01Z": {"1": {"E10": 1.999}, "2": {"E10": 1.999}},
+        "2026-09-24T15:03:01Z": {"1": {"E10": 1.899}, "2": {"E10": 1.919}, "3": {"E10": 1.949}},
+        "2026-09-25T05:03:01Z": {"1": {"E10": 1.889, "CNG": 1.5}, "2": {"E10": 1.909}},
+    }
+    summary = archive.daily_summary(observations, {"E10", "CNG", "GO"})
+
+    assert summary["E10"] == [
+        ["2026-09-24", 1.919, 1.899, 1.949, 3],
+        ["2026-09-25", 1.899, 1.889, 1.909, 2],
+    ], summary["E10"]
+    assert summary["CNG"] == [["2026-09-25", 1.5, 1.5, 1.5, 1]], summary["CNG"]
+    assert "GO" not in summary, "a fuel nobody sold still got a series"
+
+
 if __name__ == "__main__":
     failures = 0
     for name, test in sorted(globals().items()):

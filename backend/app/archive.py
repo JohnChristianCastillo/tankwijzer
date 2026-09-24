@@ -20,6 +20,7 @@ part of the site: cf-build.sh only ships the data/ folder.
 from __future__ import annotations
 
 import json
+import statistics
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -69,6 +70,28 @@ def load(source: str, root: Path = ROOT) -> Observations:
     for path in sorted((root / source).glob("*.json")):
         observations.update(_read(path))
     return dict(sorted(observations.items()))
+
+
+def daily_summary(observations: Observations, fuels: set[str]) -> dict[str, list[list]]:
+    """Per fuel, one row per day: [day, median, cheapest, dearest, stations].
+
+    A day is a UTC date, and it takes the last observation made on it, which is
+    the price that held when the day closed. The median rather than the mean, so
+    one station with a stale or odd price does not move the line.
+    """
+    last_per_day: dict[str, dict[str, dict[str, float]]] = {}
+    for stamp, stations in sorted(observations.items()):
+        last_per_day[stamp[:10]] = stations
+
+    summary: dict[str, list[list]] = {fuel: [] for fuel in sorted(fuels)}
+    for day, stations in sorted(last_per_day.items()):
+        for fuel in summary:
+            prices = sorted(own[fuel] for own in stations.values() if fuel in own)
+            if prices:
+                summary[fuel].append(
+                    [day, round(statistics.median(prices), 3), prices[0], prices[-1], len(prices)]
+                )
+    return {fuel: rows for fuel, rows in summary.items() if rows}
 
 
 def _read(path: Path) -> Observations:
