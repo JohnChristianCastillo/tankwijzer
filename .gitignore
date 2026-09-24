@@ -7,3 +7,5 @@ __pycache__/
 frontend/public/data/
 .wrangler/
 frontend/tsconfig.tsbuildinfo
+# The price archive lives on the data branch only, like the snapshot.
+/archive/

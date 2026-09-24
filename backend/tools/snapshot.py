@@ -1,11 +1,11 @@
 """Builds the static snapshot the site serves: every DATS 24 station and its prices.
 
-Run it from backend/. It writes frontend/public/data/stations.json, which is the
-only file the published site loads. Nothing here talks to a database and nothing
-runs at request time.
+Run it from backend/. It writes frontend/public/data/stations.json, the file the
+published site loads, and adds the same prices to the permanent archive (see
+app/archive.py). Nothing here talks to a database and nothing runs at request time.
 
     python tools/snapshot.py                  full run
-    python tools/snapshot.py --limit 5        quick check against a few stations
+    python tools/snapshot.py --limit 5        quick check, never archived
 """
 
 from __future__ import annotations
@@ -20,6 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+from app import archive  # noqa: E402
 from app.models import Station  # noqa: E402
 from app.sources.dats24 import Dats24Error, Dats24Source  # noqa: E402
 
@@ -35,6 +36,7 @@ def main() -> int:
     parser.add_argument("--delay", type=float, default=0.7, help="seconds between requests")
     parser.add_argument("--out", type=Path, default=OUTPUT, help="output file")
     parser.add_argument("--force", action="store_true", help="write even if coverage dropped")
+    parser.add_argument("--no-archive", action="store_true", help="leave this run out of the archive")
     args = parser.parse_args()
 
     source = Dats24Source(delay=args.delay)
@@ -68,8 +70,9 @@ def main() -> int:
     if not _coverage_is_sane(stations, args.out, args.force):
         return 1
 
+    observed = datetime.now(tz=timezone.utc)
     snapshot = {
-        "generated": datetime.now(tz=timezone.utc).isoformat(),
+        "generated": observed.isoformat(),
         "sources": ["dats24"],
         "ceilings": _ceilings(stations),
         "stations": [station.to_dict() for station in stations],
@@ -84,6 +87,13 @@ def main() -> int:
         print(f"{len(failures)} pages failed:")
         for failure in failures[:10]:
             print(f"  {failure}")
+
+    # A partial run would pull the daily median towards whichever stations it
+    # happened to reach, so only complete runs become part of the record.
+    if args.limit or args.no_archive:
+        print("not archived")
+    else:
+        print(f"archived to {archive.record('dats24', observed, stations)}")
 
     return 0
 
