@@ -80,5 +80,17 @@ jobs:
         run: |
           # Cloudflare builds on a push to main and does not watch the data branch,
           # so without this the site keeps serving the previous snapshot.
-          git commit --allow-empty -qm "Refresh snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git push origin HEAD:main
+          # GitHub occasionally rejects a push with a bare "(failed)", so retry.
+          # Each attempt builds the empty commit on the current tip of main, so
+          # a push to main during the run does not make it non-fast-forward.
+          msg="Refresh snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            commit=$(git commit-tree "FETCH_HEAD^{tree}" -p FETCH_HEAD -m "$msg")
+            if git push origin "$commit:refs/heads/main"; then
+              exit 0
+            fi
+            echo "push attempt $attempt failed, retrying"
+            sleep $((attempt * 15))
+          done
+          exit 1
